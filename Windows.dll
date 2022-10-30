@@ -14,7 +14,7 @@ using Microsoft.Win32.SafeHandles;
 
 public static class Win32
 {
-Å@[DllImport("kernel32.dll", SetLastError = true)]
+@[DllImport("kernel32.dll", SetLastError = true)]
 		[ReliabilityContract(Consistency.WillNotCorruptState, Cer.Success)]
 		[SuppressUnmanagedCodeSecurity]
 		[return: MarshalAs(UnmanagedType.Bool)]
